@@ -1,7 +1,7 @@
 (function () {
     angular
         .module('ng-layer', [])
-        .factory('layer', layer);
+        .factory('layer', ['$rootScope', '$compile', '$timeout', '$q', '$http',layer]);
 
     /**
      * ng-layer

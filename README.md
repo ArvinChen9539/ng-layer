@@ -1,3 +1,5 @@
+## 修复
+* 修复js压缩时报错的问题
 ## 概述
 对[layer](http://layer.layui.com/)的angular封装，同时增加异步载入content的功能
 
